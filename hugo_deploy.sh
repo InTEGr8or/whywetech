@@ -5,6 +5,7 @@
 #*
 # rm -rf public
 # git submodule add -b master git@github.com:InTEGr8or/hugo_blackplain_theme.git layouts
+# git submodule add -b master https://github.com/taikii/whiteplain.git themes/whiteplain
 
 printf "\033[0;32mDeploying updates to GitHub...\033[0m"
 
