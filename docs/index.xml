@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Why We Tech on </title>
+    <link>http://whywe.tech/</link>
+    <description>Recent content in Why We Tech on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    
+	<atom:link href="http://whywe.tech/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Why We Tech</title>
+      <link>http://whywe.tech/why-we-tech/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://whywe.tech/why-we-tech/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
