@@ -45,5 +45,10 @@ git push # origin master -f
 # cd ..
 
 printf "Task complete. You may close this window..."
+<<<<<<< HEAD
 # read
 # open $baseURL
+=======
+read
+# open "http://nofakingway.com"
+>>>>>>> d1948d5a1d97ee84dbdd1e810ca549501f3dcc0d
