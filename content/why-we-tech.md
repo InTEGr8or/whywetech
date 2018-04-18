@@ -10,3 +10,5 @@ Adam and Eve are "cast out" from the Garden of Eden and convicted with "original
 
 There is a deep schism between the intellectuals of morality and the intellectuals of technology.
 
+Today this is manifested in the division between the tech departments of academia and the humanities. 
+
