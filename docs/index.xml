@@ -5,6 +5,8 @@
     <link>http://whywe.tech/</link>
     <description>Recent content in Why We Tech on </description>
     <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.</copyright>
     
 	<atom:link href="http://whywe.tech/index.xml" rel="self" type="application/rss+xml" />
     
@@ -15,7 +17,11 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://whywe.tech/why-we-tech/</guid>
-      <description></description>
+      <description>Prometheus is tortured for bringing fire, pyrotechnics, down from heaven.
+Icarus is punished for inventing human flight.
+Adam and Eve are &amp;ldquo;cast out&amp;rdquo; from the Garden of Eden and convicted with &amp;ldquo;original sin&amp;rdquo; for all generations to come, for the crime of tasting of the tree of knowledge.
+There is a deep schism between the intellectuals of morality and the intellectuals of technology.
+Today this is manifested in the division between the tech departments of academia and the humanities.</description>
     </item>
     
   </channel>
