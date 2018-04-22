@@ -16,7 +16,7 @@ googleAnalytics = "UA-115076488-1"
   title = "Why We Tech"
   taglines = ["The moral case for technology"]
   favicon = ""
-  githubURL = "https://github.com/InTEGr8or/phi-fi"
+  githubPath = "https://github.com/InTEGr8or/phi-fi"
 
   # Date format
   #dateFormat = "January 2, 2006"
