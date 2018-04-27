@@ -22,3 +22,4 @@ Slowly these innovations, and their subsequent elucidation by scholars, changed 
 
 This website is directed at clarifying that history, and uniting the clerical scholars who are focused on morality, with the technical scholars and the technical innovators who are focused on technics, methods, and tacit knowledge of actually completing well-defined tasks and providing solutions to well-defined problems.
 
+https://meetings.webex.com/collabs/#/meetings/detail?uuid=M6XKTJ0TUU8G0UCYS8P3FZA477-ROQX&rnd=398826.15445
