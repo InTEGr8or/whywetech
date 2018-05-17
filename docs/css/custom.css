@@ -3,6 +3,9 @@ body {
 	background-color: #000;
 }
 
+article {
+	clear: both;
+}
 article h1 {
 	color: goldenrod;
 }
