@@ -12,5 +12,15 @@
 	<atom:link href="http://whywe.tech/anti-tech/index.xml" rel="self" type="application/rss+xml" />
     
     
+    <item>
+      <title>Why Alien Life Would Be Our Doom</title>
+      <link>http://whywe.tech/anti-tech/why-alien-life-would-be-our-doom/</link>
+      <pubDate>Sun, 17 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://whywe.tech/anti-tech/why-alien-life-would-be-our-doom/</guid>
+      <description>Here is just another anti-tech screed styled as observation on alien life forms.
+Why Alien Life Would Be Our Doom</description>
+    </item>
+    
   </channel>
 </rss>
