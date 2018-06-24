@@ -20,7 +20,7 @@ This take, of a dichotomy between logic and emotions, is so baseless and counter
 
 ## Women in Tech
 
-
+The negative connotation of "cold logic" impacts women's acceptance of tech. 
 
 [Why Women Don&#039;t Code - Quillette](https://quillette.com/2018/06/19/why-women-dont-code/)
 
@@ -28,7 +28,7 @@ This take, of a dichotomy between logic and emotions, is so baseless and counter
 
 It might be tempting to accept the idea of balancing these two supposed opposites as a solution to the false dichotomy, such as is explained in this video:
 
-[Getting Title at 33:06](https://youtu.be/bTPjhHDnsvY)
+[Should You Be Captain Kirk Or Are You Mister Spock?](https://youtu.be/bTPjhHDnsvY)
 
 This is a partial solution to a very real problem, but unfortunately it perpetuates the real problem. What's wrong here is that it still accepts that logic and emotion are opposites, which must then be "balanced". Why not go all the way and accept that they are not even opposites and that they should, instead, be integrated together into a unified whole, rather than balanced as two opposing forces?﻿
  
