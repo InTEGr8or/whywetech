@@ -9,7 +9,7 @@ DefaultContentLanguage = "en"
 SectionPagesMenu = "main"
 Paginate = 10 
 enableRobotsTXT = true
-publishDir = "docs"
+publishDir = "public"
 googleAnalytics = "UA-115076488-1"
 
 [params]
