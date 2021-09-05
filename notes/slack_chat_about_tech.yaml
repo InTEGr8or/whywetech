@@ -1,0 +1,26 @@
+Dustin Hladek:  yeah there will be a lot of errors sometimes. thats just based on the conversion date that was set up by the agency so no worries
+Mark Stouffer:  No worries?
+Like there's just no worries... with a stream of errors?
+what is funny
+Dustin Hladek:  well thats not really an error.
+Mark Stouffer:  is I was talking to my son about error messages
+Dustin Hladek:  they dont want that data in the conversion
+Mark Stouffer:  it's like a car alarm going off. No one really thinks "Hey, someone's car is being stolen!"
+Dustin Hladek:  ha yeah, unless its fatal and the car blows up
+Mark Stouffer:  which happens all the time
+No, but then you install an RSS reader, and you validate it...
+and it says "Invalid. This RSS feed is invalid!" But it's the channel list from Youtube. And you realize that no one's RSS feed validates according to W3.org. How do you tell new people where all the code-bullshit is?
+Dustin Hladek:  they have to figure it out. its part of the fun
+Mark Stouffer:  It is part of the fun. But there is another fun behind the fun. figuring out why they have to figure it out, or what it means to have to "figure it out".
+The answer to how that works, is the answer to Tech, to what Tech is.
+Dustin Hladek:  which is unanswerable
+Mark Stouffer:  non-unanswerable.
+otherwise we would have no tech.
+I'm going to have to add this to http://whywe.tech (edited)
+Dustin Hladek:  is that your blog?
+Mark Stouffer:  Just notes. Not a blog yet.
+I just try to store ideas somewhere.
+Dustin Hladek:  how do you like hugo
+Mark Stouffer:  It's not horrible.
+What I am looking for is I want to write everything in Markdown, in a folder structure, and I want that to be a blog structure. Then I want to be able to just swap out whatever tech produces static html from that.
+Dustin Hladek:  keep it simple
