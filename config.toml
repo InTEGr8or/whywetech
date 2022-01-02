@@ -1,4 +1,4 @@
-theme = "blackplain"
+theme = "learn"
 baseURL = "http://whywe.tech"
 languageCode = "en-us"
 copyright = "This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License."
@@ -12,11 +12,23 @@ enableRobotsTXT = true
 publishDir = "public"
 googleAnalytics = "UA-115076488-1"
 
+[outputs]
+home = ["HTML", "RSS", "JSON"]
+
+
 [params]
   title = "Why We Tech"
   taglines = ["The moral case for technology"]
   favicon = ""
   githubURL = "https://github.com/integr8or/whywetech"
+  editURL = "https://github.com/InTEGr8or/whywetech/edit/master/content/"
+
+  customMermaidURL = "https://unpkg.com/mermaid@8.8.0/dist/mermaid.min.js"
+  # Hide Next and Previous page buttons normally displayed full height beside content
+  disableNextPrev = true
+  # Provide a list of custom css files to load relative from the `static/` folder in the site root.
+  custom_css = ["css/hogo-theme.css", "css/theme.css"]
+
 
   # Date format
   #dateFormat = "January 2, 2006"
@@ -24,7 +36,6 @@ googleAnalytics = "UA-115076488-1"
 # This is displayer in About page.
 [params.author]
   name = "Mark Stouffer"
-  email = "mark@thefullertonian.com"
   # Gravatar or Abatar image
   # gravatar = "Gravatar email or MD5 Hash"
   #avatar = "/path/to/avatar"
