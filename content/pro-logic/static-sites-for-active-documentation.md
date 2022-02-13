@@ -2,10 +2,8 @@
 title: "Static Sites for Active Documentation"
 date: 2021-09-08T16:14:08-08:00
 author: Mark Stouffer
-draft: true
+draft: false
 ---
-
-# Static Sites for Active Documentation
 
 * Portability
   * ASCII
