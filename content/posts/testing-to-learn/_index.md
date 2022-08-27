@@ -19,7 +19,7 @@ NOTE: The first thing I did was to notify everyone I needed to that I would not 
 
 ## The Test->Learn REPL
 
-Learning fast is like a superpower. Learning a new technology fast means all the subsequent work you do in that technology will be much more productive.
+Rapid learning is like a superpower. Learning a new technology fast means all the subsequent work you do in that technology will be much more productive.
 
 This is why testing is closely related to the whole field of technology. Technological improvements are characterized by one significant feature: They can be tested.
 
@@ -52,6 +52,7 @@ The Udemy exams allow you to take them as often as you want. That means you can 
 It also means you can start testing _before_ you start learning. I did this for a couple of exams so that I could get a baseline on the knowlege set.
 
 * Stop taking example questions if your pass rate is less than 60%.
+* Avoid "gaming" the question by thinking "AWS always favors their newest product". The've done a decent job of avoiding undue product bias in their answers.
 * You'll be able to use your failed questions to narrow down the target to study your weak areas.
 * Exam review has _lots_ of information about the question!
 
@@ -74,3 +75,44 @@ You will have to monitor your thinking while you're testing to make sure you're 
 * If you're not sure of the answer you can flag the question. You then will have to be sure to review your flagged questions when you're doing your review process.
 
 You can guess on the official exam and you'll lose nothing there because you can't get a list of your failed questions and review them on the official exam.
+
+## Resources
+
+Testing is not the source of the information you are tested on. 
+
+The practice exams provide answers about the questions you are tested that you can view _after_ you answer the question, and those answers have content and links to other information resources.
+
+Organized informational content can be much more effective and helpful than simply Googling each question or browsing YouTube videos.
+
+Here are some of he resources I found most usefull and refered to most often:
+
+### Free
+
+* [AWS Support – Knowledge Center](https://aws.amazon.com/premiumsupport/knowledge-center/)
+  * Here are some of the most frequent questions and requests that AWS receive from their customers. This is a large set of questions and answers.
+* [AWS Docs](https://docs.aws.amazon.com/index.html)
+* [AWS Prescriptive Guidance](https://aws.amazon.com/prescriptive-guidance/)
+* [AWS Well-Architected Labs](https://www.wellarchitectedlabs.com/)
+
+### Paid
+
+* Udemy
+  * Stephane Maarick
+  * Neil
+* Cantrill.io
+
+## How to think in tests is how to think in _bets_
+
+* Templates have checklists and checklists have checkmarks
+* Rubber ducky programming is testing your exposition
+
+
+## Your Notes
+
+I would advise creating a folder for all your AWS notes and using a folder-aware text editor like VS Code or Vim to become very comfortable with storing all your content.
+
+You can create a separate folder for each AWS Exam you're pursuing and put all AWS Exam Guide and Practice Exam pdfs in that folder.
+
+You can put a note file like `_index.md` for general notes for that folder in every folder and subfolder. That file will sort to the top.
+
+Then you can create a git repo for that folder and push it to a host like GitHub which will render your markdown notes in a webpage, complete with image links.
