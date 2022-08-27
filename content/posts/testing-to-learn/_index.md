@@ -9,6 +9,10 @@ Over the next several hours I blocked out all thinking about anything else, as m
 
 Within those two and a half days I was able to turn my 30% score on the practice exam, which is significantly easier than the full exam, into an 82% on the official exam.
 
+Over the next few months I developed my learning process into what I call the "test->learn REPL" and passed an additional 5 AWS Certified Exams:
+
+![My six certifications, so far](certs-row.png)
+
 I learned some strong lessons about laser-focused learning, known as "deliberate practice", which I want to record for myself and which I want to share with you in this post.
 
 NOTE: The first thing I did was to notify everyone I needed to that I would not be responding until after 6 PM Friday. You have to have your mind as clear as possible, and you can't do that if you have something hanging over it. AWS allows rescheduling.
@@ -29,7 +33,7 @@ The AWS Certified exams are an attempt to approximate a specific set of active b
 
 AWS Provides these stats regarding AWS Exam Certs:
 
-![](2022-08-26-13-04-18.png)
+![91% say certs increase innovation](2022-08-26-13-04-18.png)
 
 In the same way that the AWS Certified exam is just an approximation of the real-world business challenges a developer may face, the Practice Exams available on Udemy, BenchPrep, and the AWS official practice questions are an approximation of the test questions on the AWS Certified Exam.
 
