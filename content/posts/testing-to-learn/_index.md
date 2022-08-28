@@ -3,6 +3,7 @@ title: Testing to learn and deliberate practice
 draft: false
 date: 2022-08-25 12:00:00
 ---
+
 I scheduled my first AWS Exam for a Friday and had been doing the in-course questions and passing at about 80%. Then, on the Wednesday morning before the scheduled exam I took the BenchPrep official practice exam. I scored **30%**. There was an elevation of urgency.
 
 Over the next several hours I blocked out all thinking about anything else, as much as that's possible. I was able to eleminate all social media and as much interpersonal communications as possible and isolate my brain to a dedicated task, flushing the cache on almost all other concerns and clearing my plate.
@@ -91,15 +92,31 @@ Here are some of he resources I found most usefull and refered to most often:
 * [AWS Support – Knowledge Center](https://aws.amazon.com/premiumsupport/knowledge-center/)
   * Here are some of the most frequent questions and requests that AWS receive from their customers. This is a large set of questions and answers.
 * [AWS Docs](https://docs.aws.amazon.com/index.html)
+  * Many links to API references, User Guides, labs, tutorials
+  * Organized and presented docs from the 264 AWS docs repos at [Amazon Web Services - Documentation](https://github.com/awsdocs)
 * [AWS Prescriptive Guidance](https://aws.amazon.com/prescriptive-guidance/)
 * [AWS Well-Architected Labs](https://www.wellarchitectedlabs.com/)
+  * Guided well-architected labs.
+* [AWS Security Workshops](https://awssecworkshops.com/)
+  * Guided security labs.
+* [Adding Security into DevOps](https://devops.awssecworkshops.com/)
+  * Guided security labs for DevOps.
+* [AWS Samples - GitHub](https://github.com/aws-samples)
+  * Many GitHub repos with many examples in each.
 
 ### Paid
 
 * Udemy
-  * Stephane Maarick
-  * Neil
+  * Udemy course providers tend to publish code and presentation slides in `.zip` format. That's one reason to store your notes in a local folder git repo. You can expand each of the zips into folders for each course.
+  * The presentation slides and cheat-sheets are much denser exam-oriented facts than what you'll find in AWS Docs or online.
+  * Stephane Maarek
+    * Maarek provides the densest, most extensive course material and practice exams. There are very slight narration annoyances that might reduce the multi-listen quality. I have almost most of his courses because they are the fullest single-source, if you want to do just one per Exam. 
+  * Neil Davis, DataCloud
+    * Neil Davis's courses are also very good and the narration is a little clearer, for the listening phase of your study. His practice exams might be slightly weaker.
 * Cantrill.io
+  * Cantrill's courses are the most comprehensive, long range course material.
+  * He publishes his code and content in actual GitHub repos, so it's much easier to checkout, organize and get updates. You can also create your own upstream remote repo to push any changes or updates you might make.  
+  * His videos have the best explainations, which is usefull for the listening-phase of your study schedule.
 
 ## How to think in tests is how to think in _bets_
 
