@@ -107,7 +107,7 @@ Here are some of he resources I found most usefull and refered to most often:
 * Rubber ducky programming is testing your exposition
 
 
-## Your Notes
+## Your Note-taking System
 
 I would advise creating a folder for all your AWS notes and using a folder-aware text editor like VS Code or Vim to become very comfortable with storing all your content.
 
