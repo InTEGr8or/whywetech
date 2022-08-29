@@ -6,13 +6,13 @@ date: 2022-08-25 12:00:00
 
 AWS Cloud Services is a large data object and learning it requires a fat data pipeline into your mind. I recently had to upgrade the throughput on that data-channel and I want to record here how that happened.
 
-I scheduled my first AWS Exam for a Friday and had been doing the in-course questions and passing at about 80%. Then, on the Wednesday morning before the scheduled exam I took the BenchPrep official practice exam. I scored **30%**. There was an elevation of urgency.
+I scheduled my first AWS Exam for a Friday and had been doing the in-course questions and passing at about 80%. Then, on the Wednesday morning before the scheduled exam I took the BenchPrep official practice exam. I scored **30%**. There was a significant elevation of urgency. 
 
-Over the next several hours I blocked out all thinking about anything else, as much as that's possible. I was able to eliminate all social media and as much interpersonal communications as possible and isolate my brain to a dedicated task, flushing the cache on almost all other concerns and clearing my plate.
+My first signal optimization was to filter out the noise. Over the next several hours I blocked out all thinking about anything else, as much as that's possible. I was able to eliminate all social media and as much interpersonal communications as possible and isolate my brain to a dedicated task, flushing the cache on almost all other concerns and clearing my plate.
 
 Within those two and a half days I was able to turn my 30% score on the practice exam, which is significantly easier than the full exam, into an 82% on the official exam.
 
-I started making notes about the specific steps I used to make that semi-miraculous but technically acheivable turn-around so I could use them again, and then I decided that the best way to validate which ones worked best was to _test_ them again by taking the next AWS Exam.
+I started making notes about the specific steps I used to make that semi-miraculous but technically acheivable turn-around so I could use them again, and then I decided that the best way to validate which ones worked best was to _test_ them again by taking the next AWS Exam. I didn't want to panic-cram again for the next exams. I wanted use what I learned from the panic-cram to create a smoother and less disruptive learning pipeline.
 
 Over the next few months I developed my learning process into what I call the "test->learn REPL" and passed an additional 5 AWS Certified Exams:
 
@@ -74,9 +74,9 @@ That means you can take one exam and study the answers for a few days, and then 
 You will have to monitor your thinking while you're testing to make sure you're not doing any of this:
 
 * You are ripping yourself off every time you answer a question by pattern:
-  * If you say "I remember that the question that started this way should have the answer that started that way".
+  * If you say "I remember that the question that started this way should have the answer that started that way", then you are robbing yourself of a valuable learning opportunity.
   * Always only ever answer the question after you understand the full context of the question.
-* _Never guess_ on the practice exams. You win _nothing_ by guessing the right answer on a practice exam. You actually rip yourself off and cause yourself to lose one valuable practice exam question every time you guess.
+* _Never guess_ on the practice exams. You win _nothing_ by guessing the right answer on a practice exam. You actually short-changing yourself and causing yourself to lose one valuable practice exam question every time you guess.
 * If you're not sure of the answer you can flag the question. You then will have to be sure to review your flagged questions when you're doing your review process.
 
 You can guess on the official exam and you'll lose nothing there because you can't get a list of your failed questions and review them on the official exam.
@@ -122,7 +122,7 @@ Here are some of he resources I found most useful and referred to most often:
   * He publishes his code and content in actual GitHub repos, so it's much easier to checkout, organize and get updates. You can also create your own upstream remote repo to push any changes or updates you might make.  
   * His videos have the best explanations, which is useful for the listening-phase of your study schedule.
 
-## How to think in tests is how to think in _bets_
+## Thinking in tests is thinking in _bets_
 
 * Templates have checklists and checklists have checkmarks
 * Rubber ducky programming is testing your exposition
