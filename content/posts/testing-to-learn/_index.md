@@ -4,6 +4,8 @@ draft: false
 date: 2022-08-25 12:00:00
 ---
 
+AWS Cloud Services is a large data object and learning it requires a fat data pipeline into your mind. I recently had to upgrade the throughput on that data-channel and I want to record here how that happened.
+
 I scheduled my first AWS Exam for a Friday and had been doing the in-course questions and passing at about 80%. Then, on the Wednesday morning before the scheduled exam I took the BenchPrep official practice exam. I scored **30%**. There was an elevation of urgency.
 
 Over the next several hours I blocked out all thinking about anything else, as much as that's possible. I was able to eleminate all social media and as much interpersonal communications as possible and isolate my brain to a dedicated task, flushing the cache on almost all other concerns and clearing my plate.
