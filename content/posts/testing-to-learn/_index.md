@@ -44,7 +44,7 @@ In the same way that the AWS Certified exam is just an approximation of the real
 
 ## The self-testing process
 
-Try the free tests firsts. AWS provides practice exam questions for each official exam along with an Exam Guide here: [Browse Exams](https://aws.amazon.com/certification/exams/?nc2=sb_ce_exm) 
+Try the free tests first. AWS provides practice exam questions for each official exam along with an Exam Guide here: [Browse Exams](https://aws.amazon.com/certification/exams/?nc2=sb_ce_exm) 
 
 There are other free exams online and very cheap ones in the Android Play Store but those are mostly a waste of time.
 
