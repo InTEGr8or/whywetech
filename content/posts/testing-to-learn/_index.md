@@ -16,7 +16,7 @@ I started making notes about the specific steps I used to make that semi-miracul
 
 Over the next few months I developed my learning process into what I call the "test->learn REPL" and passed an additional 5 AWS Certified Exams:
 
-![My six certifications, so far](certs-row.png)
+![My six certifications, so far](https://whywe.tech/posts/testing-to-learn/certs-row.png)
 
 I learned some strong lessons about laser-focused learning, known as "deliberate practice", which I want to record for myself and which I want to share with you in this post.
 
@@ -42,7 +42,7 @@ The AWS Certified exams are an attempt to approximate a specific set of active b
 
 AWS Provides these stats regarding AWS Exam Certs:
 
-![91% say certs increase innovation](2022-08-26-13-04-18.png)
+![91% say certs increase innovation](https://whywe.tech/posts/testing-to-learn/2022-08-26-13-04-18.png)
 
 In the same way that the AWS Certified exam is just an approximation of the real-world business challenges a developer may face, the Practice Exams available on Udemy, BenchPrep, and the AWS official practice questions are an approximation of the test questions on the AWS Certified Exam.
 
