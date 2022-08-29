@@ -30,6 +30,10 @@ This is why testing is closely related to the whole field of technology. Technol
 
 Testing is the fastest way to validate your thinking.
 
+> It is better to be wrong than to be vague --Freeman Dyson
+
+When a test reveals that one of your answers was wrong, you have learned something very valuable. The how-tos and guided tutorials don't tell you much about the wrong assumptions you might be making.
+
 Whenever we want to know if a person understands a topic we start asking them questions about it. Those are little tests. It doesn't prove they know the whole subject, so if we need higher levels of expertise, we continue to ask questions or we observe them working under real-world simulating test conditions.
 
 This is the same process involved in learning by "experience". Experience has a very broad definition, but in the context of learning it simply means you have been _tested_ with active business challenges.
@@ -52,7 +56,7 @@ The best practice exams I've found are the paid exams on Udemy. They're mostly a
 
 The Udemy exams allow you to take them as often as you want. That means you can you can stop if you get 2 out of the first 3 wrong.
 
-(I am not a salesperson for Udemy. If you know of any other good practice exams please create a PR for this article.)
+(I am not a salesperson for Udemy. If you know of any other good practice exams please create a PR for [this article here](https://github.com/InTEGr8or/whywetech/edit/master/content/posts/testing-to-learn/_index.md): .)
 
 It also means you can start testing _before_ you start learning. I did this for a couple of exams so that I could get a baseline on the knowledge set.
 
@@ -68,6 +72,15 @@ Budget a few hours after each practice exam to review, drill down in the links, 
 Udemy practice exams are typically 4 exams of 65 questions so that each exam mimics the AWS Exam. They are timed based on the AWS Exam you are practicing for.
 
 That means you can take one exam and study the answers for a few days, and then take another practice exam with another set of questions, so you don't memorize the answer pattern. The questions are also rotated between exam attempts.
+
+## Complexity of the questions
+
+* Many of the 65 questions on the AWS Exam will be multiple choice.
+* There is **NO PARTIAL CREDIT* for partially right ansers.
+  * If you need to provide three answers to a long question, you need to get _all three_ right.
+  * The multi-answer questions always have to compose a single right answer all together, so partially corrct is _wrong_.
+* That means you have to really understand the use cases of the topic of the question.
+* This is why using the tests as a measure of learning is valid. The AWS Service under test is a rich data object where you have to know what is right by also knowing a lot about what is not right.
 
 ## Hazards of Testing->Learning
 
