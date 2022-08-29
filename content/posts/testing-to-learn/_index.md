@@ -1,5 +1,5 @@
 ---
-title: Testing to learn and deliberate practice
+title: Using the Test->Learn REPL For AWS Certs
 draft: false
 date: 2022-08-25 12:00:00
 ---
@@ -8,9 +8,11 @@ AWS Cloud Services is a large data object and learning it requires a fat data pi
 
 I scheduled my first AWS Exam for a Friday and had been doing the in-course questions and passing at about 80%. Then, on the Wednesday morning before the scheduled exam I took the BenchPrep official practice exam. I scored **30%**. There was an elevation of urgency.
 
-Over the next several hours I blocked out all thinking about anything else, as much as that's possible. I was able to eleminate all social media and as much interpersonal communications as possible and isolate my brain to a dedicated task, flushing the cache on almost all other concerns and clearing my plate.
+Over the next several hours I blocked out all thinking about anything else, as much as that's possible. I was able to eliminate all social media and as much interpersonal communications as possible and isolate my brain to a dedicated task, flushing the cache on almost all other concerns and clearing my plate.
 
 Within those two and a half days I was able to turn my 30% score on the practice exam, which is significantly easier than the full exam, into an 82% on the official exam.
+
+I started making notes about the specific steps I used to make that semi-miraculous but technically acheivable turn-around so I could use them again, and then I decided that the best way to validate which ones worked best was to _test_ them again by taking the next AWS Exam.
 
 Over the next few months I developed my learning process into what I call the "test->learn REPL" and passed an additional 5 AWS Certified Exams:
 
@@ -30,9 +32,9 @@ Testing is the fastest way to validate your thinking.
 
 Whenever we want to know if a person understands a topic we start asking them questions about it. Those are little tests. It doesn't prove they know the whole subject, so if we need higher levels of expertise, we continue to ask questions or we observe them working under real-world simulating test conditions.
 
-This is the same process invlolved in learning by "experience". Experience has a very broad definition, but in the contect of learning it simply means you have been _tested_ with active business challenges.
+This is the same process involved in learning by "experience". Experience has a very broad definition, but in the context of learning it simply means you have been _tested_ with active business challenges.
 
-The AWS Certified exams are an attempt to approximate a specific set of active buiness challenges in order to validate a candidate's pertainent knowlege set.
+The AWS Certified exams are an attempt to approximate a specific set of active business challenges in order to validate a candidate's pertinent knowledge set.
 
 AWS Provides these stats regarding AWS Exam Certs:
 
@@ -42,32 +44,32 @@ In the same way that the AWS Certified exam is just an approximation of the real
 
 ## The self-testing process
 
-Try the free tests firsts. AWS provides practice exam questions for each offical exam along with an Exam Guide here: [Browse Exams](https://aws.amazon.com/certification/exams/?nc2=sb_ce_exm) 
+Try the free tests firsts. AWS provides practice exam questions for each official exam along with an Exam Guide here: [Browse Exams](https://aws.amazon.com/certification/exams/?nc2=sb_ce_exm) 
 
 There are other free exams online and very cheap ones in the Android Play Store but those are mostly a waste of time.
 
-The best practice exams I've found are the paid exams on Udemy. They're mostly around $12, but up to $100 off-sale. Get a highly rated one and you should get a fair approximation of the offical exam content domain.
+The best practice exams I've found are the paid exams on Udemy. They're mostly around $12, but up to $100 off-sale. Get a highly rated one and you should get a fair approximation of the official exam content domain.
 
 The Udemy exams allow you to take them as often as you want. That means you can you can stop if you get 2 out of the first 3 wrong.
 
 (I am not a salesperson for Udemy. If you know of any other good practice exams please create a PR for this article.)
 
-It also means you can start testing _before_ you start learning. I did this for a couple of exams so that I could get a baseline on the knowlege set.
+It also means you can start testing _before_ you start learning. I did this for a couple of exams so that I could get a baseline on the knowledge set.
 
 * Stop taking example questions if your pass rate is less than 60%.
-* Avoid "gaming" the question by thinking "AWS always favors their newest product". The've done a decent job of avoiding undue product bias in their answers.
+* Avoid "gaming" the question by thinking "AWS always favors their newest product". They've done a decent job of avoiding undue product bias in their answers.
 * You'll be able to use your failed questions to narrow down the target to study your weak areas.
 * Exam review has _lots_ of information about the question!
 
 The Udemy practice exam review provides significant context for the exam question. This is the _most important part_ of the Testing->Learning REPL.
 
-Budget a few hours after each practice exam to review, drill down in the links, and understand the context of each question you failed. For verbage-based topics you can have the browser's "Read Aloud" function read long content to you.
+Budget a few hours after each practice exam to review, drill down in the links, and understand the context of each question you failed. For verbiage-based topics you can have the browser's "Read Aloud" function read long content to you.
 
 Udemy practice exams are typically 4 exams of 65 questions so that each exam mimics the AWS Exam. They are timed based on the AWS Exam you are practicing for.
 
 That means you can take one exam and study the answers for a few days, and then take another practice exam with another set of questions, so you don't memorize the answer pattern. The questions are also rotated between exam attempts.
 
-## Hazzards of Testing->Learning
+## Hazards of Testing->Learning
 
 You will have to monitor your thinking while you're testing to make sure you're not doing any of this:
 
@@ -87,7 +89,7 @@ The practice exams provide answers about the questions you are tested that you c
 
 Organized informational content can be much more effective and helpful than simply Googling each question or browsing YouTube videos.
 
-Here are some of he resources I found most usefull and refered to most often:
+Here are some of he resources I found most useful and referred to most often:
 
 ### Free
 
@@ -118,7 +120,7 @@ Here are some of he resources I found most usefull and refered to most often:
 * Cantrill.io
   * Cantrill's courses are the most comprehensive, long range course material.
   * He publishes his code and content in actual GitHub repos, so it's much easier to checkout, organize and get updates. You can also create your own upstream remote repo to push any changes or updates you might make.  
-  * His videos have the best explainations, which is usefull for the listening-phase of your study schedule.
+  * His videos have the best explanations, which is useful for the listening-phase of your study schedule.
 
 ## How to think in tests is how to think in _bets_
 
