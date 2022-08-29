@@ -54,6 +54,8 @@ There are other free exams online and very cheap ones in the Android Play Store 
 
 The best practice exams I've found are the paid exams on Udemy. They're mostly around $12, but up to $100 off-sale. Get a highly rated one and you should get a fair approximation of the official exam content domain.
 
+The practice exams also give you a good practice at performing at the pace of the AWS Exam. If you are scoring below 65% on the practice exams, you're probably also taking too long. You don't just need to answer the questions accurately, you also need to answer them quickly over the two or three hour course of the Associate or Professional exams. Practice exams help you automatize that pace so you can recognize if you've gotten stuck on a question that you should flag and return to.
+
 The Udemy exams allow you to take them as often as you want. That means you can you can stop if you get 2 out of the first 3 wrong.
 
 (I am not a salesperson for Udemy. If you know of any other good practice exams please create a PR for [this article here](https://github.com/InTEGr8or/whywetech/edit/master/content/posts/testing-to-learn/_index.md): .)
