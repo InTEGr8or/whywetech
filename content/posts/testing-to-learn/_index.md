@@ -137,8 +137,21 @@ Here are some of he resources I found most useful and referred to most often:
 
 ## Thinking in tests is thinking in _bets_
 
-* Templates have checklists and checklists have checkmarks
-* Rubber ducky programming is testing your exposition
+Testing does not just aid learning. It can also be quite a useful thinking aid.
+
+Once you've started regularly testing yourself, like with the course section tests, you can develop the skill to ask your own questions as you go along in the tutorials. Really, the only way to understand the topic being discussed is to ask yourself questions about how the topic service might interact with other systems and what the limits probably are.
+
+When you make a guess about the system you should immediately place a bet with yourself, and then test the bet as soon as possible in your own AWS acount.
+
+For instance if you are introduced to a new AWS service such as EFS storage you can immediately start asking yourself about how it compares to other AWS storage services you already know about such as S3 and EBS.
+
+Many other tech-oriented organization tools already resemble self-testing:
+
+* Templates have checklists and checklists have checkmarks.
+  * Any task that you will perform in your tech career will eventually develop into a checklist. The sooner you can create the checklist the better.
+  * Test-Driven Design and behavior driven design are methods of creating completion tests _before_ you start the work. Tests are similar goal-validation qualifiers.
+* Rubber ducky programming is testing your exposition.
+  * This method of programming-thinking simply requires you to explain your thinking about a programming problem you are having. The act of explaining to another person is often enough to get over the thinking-hurdle.
 
 
 ## Your Note-taking System
@@ -150,3 +163,9 @@ You can create a separate folder for each AWS Exam you're pursuing and put all A
 You can put a note file like `_index.md` for general notes for that folder in every folder and subfolder. That file will sort to the top.
 
 Then you can create a git repo for that folder and push it to a host like GitHub which will render your markdown notes in a webpage, complete with image links.
+
+## Updates to this article
+
+A couple of additional articles are already growing out of these notes. I will be updating this article over the next month by adding content and adding links to the other two articles, so please check back.
+
+Also, if you have anything interesting to add, you can create a PR for [this article here](https://github.com/InTEGr8or/whywetech/edit/master/content/posts/testing-to-learn/_index.md)
