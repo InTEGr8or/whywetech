@@ -1,0 +1,74 @@
+<svg viewBox="0 0 500 500" width="550" height="550" fill="black">
+  <style>svg { background-color: black; }</style>
+  <defs>
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:rgb(255,255,0);stop-opacity:1" />
+      <stop offset="100%" style="stop-color:rgb(255,125,0);stop-opacity:1" />
+    </linearGradient>
+    <polygon id="hexagon" points="10,0 1.5,5 1.5,15 10,20 18.5,15 18.5,5" />
+    <polygon id="checkmark" points="3.5,21 5,19 7.5,22 15,14 16,15.5 7.5,24.5"/>
+    <polygon id="xmark" stroke="#FFF" stroke-width="2.5" 
+             points="0,0 5,5 10,0 5,5 10,10 5,5 0,10 5,5" />
+    <ref id="paramText" param="text-label">hexLabel</ref>
+    <symbol id="awsHex" viewBox="2 -2 300 300">
+      <use href="#hexagon" transform="translate(0 0) scale(4)"
+        fill="url(#grad1)" 
+        stroke="#FFD600" 
+        stroke-width="0.5" />
+       <use href="#hexagon" transform="translate(30 14)" 
+            fill="#00AA00" opacity="100%" />
+       <use href="#checkmark" transform="translate(30,5.5)" fill="#FFF" />
+      <text id="myLabel" x="40" y="50" font-family="Helvetica" 
+            font-weight="bold" text-anchor="middle" fill="white" font-size="10">
+         <param name="text-label" value="text-label" />
+         <tref xlink:href="#paramText" />
+      </text>
+    </symbol>
+  </defs>
+  <use href="#awsHex" transform="translate(0 0)" data="label=Deployment" data-label="Deployment"/> 
+  <use href="#awsHex" transform="translate(120 0)"/>  
+  <use href="#awsHex" transform="translate(60 105)"/>  
+  <use href="#awsHex" transform="translate(180 105)"/>  
+  <use href="#awsHex" transform="translate(240 0)"/>  
+    <text x="60" y="90" font-family="Helvetica" 
+    font-weight="bold" text-anchor="middle" fill="white" font-size="15">
+      Deployment
+      <option name="label" />
+    </text>
+    <text x="185" y="90" font-family="Helvetica" 
+    font-weight="bold" text-anchor="middle" fill="white" font-size="15">
+      Security
+      <option name="label" />
+    </text>
+    <text x="120" y="140" font-family="Helvetica" 
+    font-weight="bold" text-length="0.5" text-anchor="middle" fill="white" font-size="12">
+      Development
+      <option name="label" />
+    </text>
+    <text x="95" y="155" font-family="Helvetica" 
+    font-weight="bold" text-length="0.5" text-anchor="middle" fill="white" font-size="12">
+      with AWS
+      <option name="label" />
+    </text>
+    <text x="185" y="150" font-family="Helvetica" 
+    font-weight="bold" text-anchor="middle" fill="white" font-size="12">
+      Refactoring
+      <option name="label" />
+    </text>
+    <text x="305" y="90" font-family="Helvetica" 
+    font-weight="bold" text-anchor="middle" fill="white" font-size="12">
+      Monitoring &amp;
+      <option name="label" />
+    </text>    
+    <text x="305" y="105" font-family="Helvetica" 
+    font-weight="bold" text-anchor="middle" fill="white" font-size="10">
+      Troubleshooting
+      <option name="label" />
+    </text>
+      
+   <!-- <use href="#hexagon" transform="translate(0 1) scale(4)" 
+     fill="#00AA00" opacity="100%" /> -->
+    <!--     <use href="#hexagon" transform="translate(30 14)"  
+      fill="#AA0000" opacity="100%" />
+    <use href="#xmark" transform="translate(35,19)" />  -->
+</svg>

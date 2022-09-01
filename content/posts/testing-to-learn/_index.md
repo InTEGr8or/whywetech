@@ -2,6 +2,7 @@
 title: Using the Test->Learn REPL For AWS Certs
 draft: false
 date: 2022-08-25 12:00:00
+description: 
 ---
 
 AWS Cloud Services is a large data object and learning them requires a fat data pipeline straight into your mind. I recently had to upgrade the throughput on that data channel and I want to record here how that happened.
@@ -32,7 +33,9 @@ Testing is the fastest way to validate your thinking.
 
 > It is better to be wrong than to be vague --Freeman Dyson
 
-When a test reveals that one of your answers was wrong, you have learned something very valuable. The how-tos and guided tutorials don't tell you much about the wrong assumptions you might be making.
+Another way of stating Dyson's dictum would be that being vague is _worse_ than being wrong, because being wrong can be corrected. That's the truth revealed by wrong answers.
+
+When a test reveals that one of your answers was wrong, you have learned something very valuable. The how-tos and guided tutorials don't tell you much about the wrong assumptions you might be making, but tests do.
 
 Whenever we want to know if a person understands a topic we start asking them questions about it. Those are little tests. It doesn't prove they know the whole subject, so if we need higher levels of expertise, we continue to ask questions, or we might observe them working under real-world simulated test conditions.
 
