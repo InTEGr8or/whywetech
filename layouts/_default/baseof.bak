@@ -1,0 +1,6 @@
+<!DOCTYPE html>
+<html data="baseof.html" lang="{{ .Page.Language | default "en" }}" class="js csstransforms3d">
+<!-- LAYOUT START: _default/baseof.html -->
+<h1>index.html</h1>
+</html>
+<!-- LAYOUT END: _default/baseof.html -->

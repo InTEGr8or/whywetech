@@ -17,7 +17,7 @@ I started making notes about the specific steps I used to make that semi-miracul
 
 Over the next few months I developed my learning process into what I call the "test->learn REPL" and passed an additional 5 AWS Certified Exams:
 
-![My six certifications, so far](https://whywe.tech/posts/testing-to-learn/certs-row.png)
+![My six certifications, so far](https://whywe.tech/posts/testing-to-learn/certs-row.png) and at [Credly](https://www.credly.com/users/mark-stouffer/badges)
 
 I learned some strong lessons about laser-focused learning, known as "deliberate practice", which I want to record for myself and which I want to share with you in this post.
 
@@ -33,9 +33,11 @@ Testing is the fastest way to validate your thinking.
 
 > It is better to be wrong than to be vague --Freeman Dyson
 
+Of course, Dyson is a technical optimist so he means that the wrong can be corrected. Vagueness doesn't have that advantage.
+
 Another way of stating Dyson's dictum would be that being vague is _worse_ than being wrong, because being wrong can be corrected. That's the truth revealed by wrong answers.
 
-When a test reveals that one of your answers was wrong, you have learned something very valuable. The how-tos and guided tutorials don't tell you much about the wrong assumptions you might be making, but tests do.
+When a test reveals that one of your answers was wrong, you have learned something very valuable. The how-tos and guided tutorials don't tell you much about the wrong assumptions you might be making, but tests do. This is why it's so important to support the test creators, and why I mention them in this post. They provide the correct answers which your maybe slightly vague assumptions can be measured against. Valid tests are essential component and must continuously be validated themselves.
 
 Whenever we want to know if a person understands a topic we start asking them questions about it. Those are little tests. It doesn't prove they know the whole subject, so if we need higher levels of expertise, we continue to ask questions, or we might observe them working under real-world simulated test conditions.
 
