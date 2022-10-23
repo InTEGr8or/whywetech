@@ -11,4 +11,4 @@ Consider, also, the modern counterpoint to this: the success of the "computer re
 
 The scope of the conflict of these two ideas is almost too broad to fully grasp, and the conflicting ideas are both central to the pursuit of goal-setting and goal-directed action. That means they are central to the pursuit of any pursuit. They are central to moral judgement, norms, law, and what is based on all those things: politics.
 
-<!- TODO: Insert Discriminator component -->
+<!-- TODO: Insert Discriminator component -->
