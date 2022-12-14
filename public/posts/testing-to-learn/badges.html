@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">   
+  <head>
+    <script type = "text/javascript" src = "https://cdnjs.cloudflare.com/ajax/libs/snap.svg/0.5.1/snap.svg-min.js"></script>
+  </head>
+  <body style="margin: 0px;">
+    <style>
+      svg {
+        background-color: black;
+      }
+    </style>
+    <a href=http://snapsvg.io/start/">Snap.svg getting started</a>
+    <svg viewBox="0 0 2000 800" width="2000" height="800" fill="black">
+      <defs>
+        <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+          <stop offset="0%" style="stop-color: rgb(255, 255, 0); stop-opacity: 1;" />
+          <stop offset="100%" style="stop-color: rgb(255, 125, 0); stop-opacity: 1;" />
+        </linearGradient>
+        <polygon id="hexagon" points="10,0 1.5,5 1.5,15 10,20 18.5,15 18.5,5" />
+        <polygon id="checkmark" points="3.5,21 5,19 7.5,22 15,14 16,15.5 7.5,24.5" />
+        <polygon id="xmark" stroke="#FFF" stroke-width="2.5" points="0,0 5,5 10,0 5,5 10,10 5,5 0,10 5,5" />
+        <ref id="paramText" param="text-label">hexLabel</ref>
+        <g id="hexRight" xmlns="http://www.w3.org/2000/svg" transform="translate(-5 5) scale(3)">
+          <use href="#hexagon" transform="translate(0 0) scale(4)" fill="url(#grad1)" stroke="#FFD600" stroke-width="0.5" />
+          <use href="#hexagon" transform="translate(30 14)" fill="#00AA00" opacity="100%" />
+          <use href="#checkmark" transform="translate(30 5.5)" fill="#FFF" />
+        </g>
+        <g id="hexWrong" xmlns="http://www.w3.org/2000/svg" transform="translate(-5 5) scale(3)">
+          <use href="#hexagon" transform="translate(0 0) scale(4)" fill="url(#grad1)" stroke="#FFD600" stroke-width="0.5" />
+          <use href="#hexagon" transform="translate(30 14)" fill="#CC0000" opacity="100%" />
+          <use href="#xmark" transform="translate(35 19.25)" fill="#FFF" />
+        </g>
+        <g id="hexUnchecked" xmlns="http://www.w3.org/2000/svg" transform="translate(-5 5) scale(3)">
+          <use href="#hexagon" transform="translate(0 0) scale(4)" fill="url(#grad1)" stroke="#FFD600" stroke-width="0.5" />
+          <use href="#hexagon" stroke ="#FFF" stroke-width="2" transform="translate(30 14)" fill="#888" opacity="50%" />
+        </g>
+      </defs>
+      <image id="badge" href="aws-certified-developer-associate-badge-600x600.png" transform="translate(1700 30)" height="300" width="300" />
+      <!-- <path id="move-right" fill="none" stroke="green" d="M 10 80 L 700 200"/> -->
+    </svg>
+    <svg id="svg" fill="#AAA"></svg>
+    <script type="text/javascript">
+      const wrapString = (str, lineLength = 26) => {
+        const arr = ['']
+        str.split(' ').forEach(word => {
+          if (arr[arr.length - 1].length + word.length > lineLength) arr.push('')
+          arr[arr.length - 1] += (word + ' ')
+        })
+        return arr.map(v => v.trim())
+      }
+      const questionA = "A developer is designing a web application that allows the users to post comments and receive near-real-time feedback. Select TWO.";
+      const answersA = [
+        "Create an AWS AppSync schema and corresponding APIs. Use an Amazon DynamoDB table as the data store.",
+        "Create a WebSocket API in Amazon API Gateway. Use an AWS Lambda function as the backend and an Amazon DynamoDB table as the data store.",
+        "Create an AWS Elastic Beanstalk application backed by an Amazon RDS database. Configure the application to allow long-lived TCP/IP sockets.",
+        "Create a GraphQL endpoint in Amazon API Gateway. Use an Amazon DynamoDB table as the data store.",
+        "Enable WebSocket on Amazon CloudFront. Use an AWS Lambda function as the origin and an Amazon Aurora DB cluster as the data store."
+      ]
+      function createSvg(){
+        const s = Snap("#svg");
+        s.attr({
+          viewBox: "0 0 2000 800",
+          width: 2000,
+          height: 800,
+        });
+        const defs = s.defs;
+      }
+      function createHex(scale, translate, label, fontSize = 9, textTop = 50, hexTemplate = "hexRight"){
+        let textCenter = 39;
+        let badgeImageUrl = "https://www.credly.com/badges/2889f005-de28-4a6d-8441-2a132e949808/public_url"  
+        let hexRight = document.querySelector(`g#${hexTemplate}`).cloneNode(true);
+        translate[0] *= scale;
+        translate[1] *= scale;
+        hexRight.setAttribute("id", label[0].split(' ')[0].toLowerCase())
+        label.forEach((item, index)=>{
+          let newText = document.createElementNS("http://www.w3.org/2000/svg", "text");
+          newText.textContent = item;
+          newText.setAttribute("text-anchor", "middle");
+          newText.setAttribute("x", textCenter);
+          newText.setAttribute("y", textTop + index * fontSize);
+          newText.setAttribute("fill", "#FFF");
+          newText.setAttribute("font-family", "Helvetica");
+          newText.setAttribute("font-weight", "bold");
+          newText.setAttribute("font-size", fontSize);
+          hexRight.appendChild(newText);
+        })
+        hexRight.setAttribute("transform", `translate(${translate.join(' ')}) scale(${scale})`);
+        return hexRight;
+      }
+      let domainScale = 2;
+      let newText = document.createElementNS("http://www.w3.org/2000/svg", "text");
+      newText.textContent = "Test";
+      let svg = document.querySelector('svg')
+      let answerWrongGroup = document.createElementNS("http://www.w3.org/2000/svg", "g");
+      answerWrongGroup.setAttribute("transform", "translate(50, 20) scale(0.8)");
+      svg.appendChild(answerWrongGroup);
+      let answerRightGroup = document.createElementNS("http://www.w3.org/2000/svg", "g");
+      answerRightGroup.setAttribute("transform", "translate(600, 20) scale(0.8)");
+      svg.appendChild(answerWrongGroup);
+      svg.appendChild(answerRightGroup);
+      let wrongHex = createHex(4, [16,5], wrapString(questionA), 5, 40, "hexWrong");
+      answerWrongGroup.appendChild(wrongHex);
+      let rightHex = createHex(4, [16,5], wrapString(questionA), 5, 40, "hexRight")
+      answerRightGroup.appendChild(rightHex);
+      let answerAHex = createHex(2, [36,155], wrapString(answersA[0]), 5, 45, "hexUnchecked");
+      answerWrongGroup.appendChild(answerAHex);
+      let answerBHex = createHex(2, [108,155], wrapString(answersA[1]), 5, 40, "hexWrong");
+      answerWrongGroup.appendChild(answerBHex);
+      let answerCHex = createHex(2, [0,219], wrapString(answersA[2]), 5, 40, "hexUnchecked");
+      answerWrongGroup.appendChild(answerCHex);
+      let answerDHex = createHex(2, [72,219], wrapString(answersA[3]), 5, 40, "hexRight");
+      answerWrongGroup.appendChild(answerDHex);
+      let answerEHex = createHex(2, [144,219], wrapString(answersA[4]), 5, 40, "hexUnchecked");
+      answerWrongGroup.appendChild(answerEHex);
+      let domainGroup = document.createElementNS("http://www.w3.org/2000/svg", "g");
+      domainGroup.setAttribute("transform", "translate(1100, 30)");
+      svg.appendChild(domainGroup);
+      let development = createHex(domainScale, [0, 2], ["Development", "with AWS"], 7);
+      domainGroup.appendChild(development);
+      let security = createHex(domainScale, [72, 2], ["Security"]);
+      domainGroup.appendChild(security);
+      let monitoring = createHex(domainScale, [144, 2], ["Monitoring &", "Troubleshooting"], 7);
+      domainGroup.appendChild(monitoring);
+      let refactoring = createHex(domainScale, [36, 65], ["Refactoring"]);
+      domainGroup.appendChild(refactoring);
+      let deployment = createHex(domainScale, [108, 65], ["Deployment"]);
+      domainGroup.appendChild(deployment);
+    </script>
+  </body>
+</html>
