@@ -1,5 +1,7 @@
 github.com/alex-shpak/hugo-book v0.0.0-20220802105740-317ccae23b73 h1:RC76uULXrG9mfHnYskKc/8L2JRQJFixfBXySfcdOq4k=
 github.com/alex-shpak/hugo-book v0.0.0-20220802105740-317ccae23b73/go.mod h1:L4NMyzbn15fpLIpmmtDg9ZFFyTZzw87/lk7M2bMQ7ds=
+github.com/integr8or/hugo-theme-bare-minimum v0.0.0-20221207064425-375f4f3f682f h1:4w4CqncV2Z7k6FS6xK1fI5LgionF54F2cfgoG9SD9gI=
+github.com/integr8or/hugo-theme-bare-minimum v0.0.0-20221207064425-375f4f3f682f/go.mod h1:wt8MeFEbx6pydGvO21L9pPDxef1Etwx6hHM+gX6SgHo=
 github.com/matcornic/hugo-theme-learn v0.0.0-20211028190410-e817f53d690d h1:p7ktiW/GnHccjB9oO5YGY7us5v/oHmkyF0C7EDZFM3s=
 github.com/matcornic/hugo-theme-learn v0.0.0-20211028190410-e817f53d690d/go.mod h1:YoToDcvQxmAFhpEuapKUysBDEBckqDEssqTrmeZ2+uY=
 github.com/thingsym/hugo-theme-techdoc v0.9.9 h1:7eHNfuf0x86MtLmUPhKCUoQ6cR/Iuwqm9TPtHtuUAkc=
