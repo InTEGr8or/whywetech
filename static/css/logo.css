@@ -26,22 +26,13 @@ body{
     background-color: var(--why-color);
     fill: var(--why-color);
 }
-.why:before{
-    border-left-color: var(--why-color);
-}
 .we {
     background-color: var(--we-color);
     fill: var(--we-color);
 }
-.we:before {
-    border-left-color: var(--we-color);
-}
 .tech {
     background-color: var(--tech-color);
     fill: var(--tech-color);
-}
-.tech:before {
-    border-left-color: var(--tech-color);
 }
 .cursor {
     stroke: var(--cursor-color);
