@@ -4,12 +4,13 @@
     --purple-color:#a52da5;     
     --green-color: #23783d;
     --blue-color: #0062cb;
-    --yellow-color: #847b00;
+    --yellow-color: #AAAA00;
     --amber-color: #b56a03;
 
     --why-color: var(--purple-color);
     --we-color: var(--blue-color);
     --tech-color: var(--green-color);
+    --cursor-color: var(--yellow-color);
 
     --line-height: 64px;
     --border-top: calc(var(--line-height) / 2);
@@ -41,6 +42,10 @@ body{
 }
 .tech:before {
     border-left-color: var(--tech-color);
+}
+.cursor {
+    stroke: var(--cursor-color);
+    stroke-width: 7;
 }
 svg {
     margin: 20px;
