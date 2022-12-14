@@ -12,6 +12,7 @@
     --tech-color: var(--green-color);
 
     --line-height: 64px;
+    --border-top: calc(var(--line-height) / 2);
 }
 
 body{
@@ -46,18 +47,18 @@ body{
     list-style: none;
 }
 .segments li {
-    padding: 0 10px;
+    padding: 0 20 0 20px;
     height: var(--line-height);
     line-height: var(--line-height);
     display: inline-block;
     position: relative;
+    overflow: visible;
 }
 .segments li:not(:first-child){
-    margin-left: -5px;
-    padding-left: 20px;
+    margin-left: -8px;
+    padding-left: 30px;
 }
 .segments li:first-child {
-   padding: 0 10px; 
    border-radius: 4px 0 0 4px;
 }
 .segments li:after,
@@ -67,14 +68,14 @@ body{
     width: 0;
     height: 0;
     content: '';
-    border-top: 32px solid transparent;
-    border-bottom: 32px solid transparent;
+    border-top: var(--border-top) solid transparent;
+    border-bottom: var(--border-top) solid transparent;
 }
 .segments li:before {
-    right: -10px;
+    right: -24px;
     z-index: 3;
     border-left-style: solid;
-    border-left-width: 10px;
+    border-left-width: 24px;
 }
 .segments li:after {
     right: -11px;
