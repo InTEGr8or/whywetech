@@ -19,6 +19,23 @@
 body{
     background-color: #000;
     color:#e6c98abd;
+    font-size: 1.2em;
+}
+.column {
+    column-width: 400px;
+    column-gap: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    font-size: 1.5em;
+  }
+  .column {
+    column-count: 1;
+  }
+  svg.logo{
+    transform: scale(2);
+  }
 }
 
 /* SEGMENTS */
@@ -46,16 +63,40 @@ div.row{
     font-size: 2em;
     grid-column: 2 / 4;
 }
-svg {
+svg.logo {
     margin: 30px;
     grid-column: 1 / 2;
 }
-svg g text {
+svg.logo g text {
     font-weight: bold;
 }
-svg g text.title {
+svg.logo g text.title {
     font-size: 32px;
 }
-svg g text.subhead {
+svg.logo g text.subhead {
     font-size: 16px;
+}
+div.card-body{
+    padding: 0px;
+}
+ul.site-footer-items {
+    list-style: none;
+    width: 100%;
+}
+ul.site-footer-items li {
+    float: left;
+    padding: 20px;
+}
+div.poweredby {
+    display: none;
+    clear:both;
+    width: 100%;
+    font-size: 9px;
+}
+h4.section-title {
+    display: block;
+    background-color: var(--we-color);
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
 }

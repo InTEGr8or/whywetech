@@ -13,7 +13,9 @@
 {{end}}
 
 <div class="page-content col-md-12">
-	{{ .Page.Content }}
+	<div class="column">
+		{{ .Page.Content }}
+	</div>
 	<div class="panels">
 	{{ partial "section_panels.html" . }}
 	</div>
