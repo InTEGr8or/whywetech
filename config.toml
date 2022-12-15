@@ -25,6 +25,7 @@ home = ["HTML", "RSS", "JSON"]
 [params]
   title = "Why We Tech"
   taglines = ["The moral case for technology"]
+  justification = ["For technology to be defended", "it must be articulated"]
   favicon = ""
   githubURL = "https://github.com/integr8or/whywetech"
   editURL = "https://github.com/InTEGr8or/whywetech/edit/master/content/"
