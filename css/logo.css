@@ -44,7 +44,7 @@ div.row{
 .justification {
     padding: 20px;
     font-size: 2em;
-    grid-column: 3 / 4;
+    grid-column: 2 / 4;
 }
 svg {
     margin: 30px;
