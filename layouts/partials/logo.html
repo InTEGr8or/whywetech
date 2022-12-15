@@ -4,28 +4,28 @@
     href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta/css/bootstrap.min.css"
     media="all" />
 <link rel="stylesheet" href="/css/logo.css" media="all" />
-<row>
+<div class="row">
     <svg width="500" height="100">
-        <g xmlns="http://www.w3.org/2000/svg" transform="translate(170 0)">
-            <polygon class="tech" points="0,0 110,0 125,25 110,50 0,50" />
-            <text x="55" y="37" class="title" text-anchor="middle" fill="white">.Tech</text>
+        <g xmlns="http://www.w3.org/2000/svg" transform="translate(157 0)">
+            <polygon class="tech" points="0,0 110,0 130,25 110,50 0,50" />
+            <text x="62" y="37" class="title" text-anchor="middle" fill="white">.Tech</text>
         </g>
         <g xmlns="http://www.w3.org/2000/svg" transform="translate(80 0)">
-            <polygon class="we" points="0,0 90,0 105,25 90,50 0,50" />
-            <text x="55" y="37" class="title" text-anchor="middle" fill="white">We</text>
+            <polygon class="we" points="0,0 80,0 100,25 80,50 0,50" />
+            <text x="51" y="37" class="title" text-anchor="middle" fill="white">We</text>
         </g>
         <g xmlns="http://www.w3.org/2000/svg" transform="scale(1 1)">
             <path class="why" d="M0,5
                              A5,5 0 0,1 5,0 
-                             H90 
-                             L105,25 
-                             L90,50 
+                             H80 
+                             L100,25 
+                             L80,50 
                              H5
                              A5,5 0 0,1 0,45 Z" />
             <text x="50" y="37" class="title" text-anchor="middle" fill="white">Why</text>
         </g>
-        <g xmlns="http://www.w3.org/2000/svg" transform="translate(295 0)">
-            <path class="cursor" d="M0,0 L15,25 L0,50" />
+        <g xmlns="http://www.w3.org/2000/svg" transform="translate(285 0)">
+            <path class="cursor" d="M0,0 L20,25 L0,50" />
         </g>
         <g xmlns="http://www.w3.org/2000/svg" transform="translate(0 60)">
             <path class="we" d="M0,5
@@ -42,6 +42,8 @@
     </svg>
 
     <div class="justification">
-        {{ .Site.Params.justification }}
+        {{- range .Site.Params.justification }}
+            <div class="line">{{ . }}</div>
+        {{- end }}
     </div>
-</row>
+</div>
