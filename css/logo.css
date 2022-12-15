@@ -23,32 +23,32 @@ body{
 
 /* SEGMENTS */
 .why {
-    background-color: var(--why-color);
     fill: var(--why-color);
 }
-.why:before{
-    border-left-color: var(--why-color);
-}
 .we {
-    background-color: var(--we-color);
     fill: var(--we-color);
 }
-.we:before {
-    border-left-color: var(--we-color);
-}
 .tech {
-    background-color: var(--tech-color);
     fill: var(--tech-color);
-}
-.tech:before {
-    border-left-color: var(--tech-color);
 }
 .cursor {
     stroke: var(--cursor-color);
+    fill: none;
     stroke-width: 7;
 }
+div.row{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+.justification {
+    padding: 20px;
+    font-size: 2em;
+    grid-column: 3 / 4;
+}
 svg {
-    margin: 20px;
+    margin: 30px;
+    grid-column: 1 / 2;
 }
 svg g text {
     font-weight: bold;
