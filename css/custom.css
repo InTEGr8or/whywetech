@@ -21,6 +21,7 @@ body{
     color:#e6c98abd;
     font-size: 1.2em;
 }
+
 .column {
     column-width: 400px;
     column-gap: 20px;
@@ -77,7 +78,7 @@ svg.logo g text.subhead {
     font-size: 16px;
 }
 div.card-body{
-    padding: 0px;
+    padding: 30px 0;
 }
 ul.site-footer-items {
     list-style: none;
