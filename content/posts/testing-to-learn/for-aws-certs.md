@@ -5,7 +5,9 @@ date: 2022-08-25 12:00:00
 description: 
 ---
 
-AWS Cloud Services is a large data object and learning them requires a fat data pipeline straight into your mind. I recently had to upgrade the throughput on that data channel and I want to record here how that happened.
+> The key to low-overhead learning is reducing the cost of correction.
+
+AWS Cloud Services is a huge collection of large, complex data objects and learning many of them rapidly requires a fat data pipeline straight into your mind. I recently had to upgrade the throughput on that data channel, and it gave me unique insights into what I call high bandwidth learning and what others call "deliberate practice". I want to record here how that happened.
 
 I scheduled my first AWS Exam for a Friday and had been doing the in-course questions and passing at about 80%. Then, on the Wednesday morning before the scheduled exam, I took the BenchPrep official practice exam. I scored **30%**. There was a significant elevation of urgency. 
 
@@ -15,7 +17,7 @@ Within those two and a half days I was able to turn my 30% score on the practice
 
 I started making notes about the specific steps I used to make that semi-miraculous but technically achievable turn-around so I could use them again, and then I decided that the best way to validate which ones worked best was to _test_ them again by taking the next AWS Exam. I didn't want to panic-cram again for the next exams. I wanted to use what I learned from my panic-cram episode to create a smoother and less disruptive learning pipeline.
 
-Over the next few months I developed my learning process into what I call the "test->learn REPL" and passed an additional 5 AWS Certified Exams:
+Over the next few months, I developed my learning process into what I call the "test->learn REPL" and passed an additional 5 AWS Certified Exams:
 
 ![My six certifications, so far](https://whywe.tech/posts/testing-to-learn/certs-row.png) and at [Credly](https://www.credly.com/users/mark-stouffer/badges)
 
@@ -33,7 +35,7 @@ Testing is the fastest way to validate your thinking.
 
 > It is better to be wrong than to be vague --Freeman Dyson
 
-Errors are just as bad as they have always been but they can be corrected. Vagueness doesn't have that advantage.
+Errors are as bad as they have always been but they can be corrected. Vagueness doesn't have that advantage.
 
 Rapid error detection and correction provides a primary feature of rapid learning: low-overhead error correction.
 
@@ -41,7 +43,7 @@ Another way of stating Dyson's dictum would be that being vague is _worse_ than 
 
 When a test reveals that one of your answers was wrong, you have learned something very valuable. The how-tos and guided tutorials don't tell you much about the wrong assumptions you might be making, but tests do. This is why it's so important to support the test creators, and why I mention them in this post. They provide the correct answers which your maybe slightly vague assumptions can be measured against. Valid tests are essential component and must continuously be validated themselves.
 
-Whenever we want to know if a person understands a topic we start asking them questions about it. Those are little tests. It doesn't prove they know the whole subject, so if we need higher levels of expertise, we continue to ask questions, or we might observe them working under real-world simulated test conditions.
+Whenever we want to know if a person understands a topic, we start asking them questions about it. Those are little tests. It doesn't prove they know the whole subject, so if we need higher levels of expertise, we continue to ask questions, or we might observe them working under real-world simulated test conditions.
 
 This is the same process involved in learning by "experience". Experience has a very broad definition, but in the context of learning it simply means you have been _tested_ with active business challenges.
 
@@ -49,7 +51,7 @@ The AWS Certified exams are an attempt to approximate a specific set of active b
 
 AWS Provides these stats regarding AWS Exam Certs:
 
-![91% say certs increase innovation](/posts/testing-to-learn/2022-08-26-13-04-18.png)
+![91% say certs increase innovation](https://whywe.tech/posts/testing-to-learn/2022-08-26-13-04-18.png)
 
 In the same way that the AWS Certified exam is just an approximation of the real-world business challenges a developer may face, the Practice Exams available on Udemy, BenchPrep, and the AWS official practice questions are an approximation of the test questions on the AWS Certified Exam.
 
@@ -65,7 +67,7 @@ The practice exams also give you good practice at performing at the pace of the 
 
 The Udemy exams allow you to take them as often as you want. That means you can stop if you get 2 out of the first 3 wrong.
 
-(I am not a salesperson for Udemy. If you know of any other good practice exams please create a PR for [this article here](https://github.com/InTEGr8or/whywetech/edit/master/content/posts/testing-to-learn/_index.md): .)
+(I am not a salesperson for Udemy. If you know of any other good practice exams, please create a PR for [this article here](https://github.com/InTEGr8or/whywetech/edit/master/content/posts/testing-to-learn/_index.md): .)
 
 It also means you can start testing _before_ you start learning. I did this for a couple of exams so that I could get a baseline on the knowledge set.
 
@@ -96,12 +98,12 @@ That means you can take one exam and study the answers for a few days, and then 
 You will have to monitor your thinking while you're testing to make sure you're not doing any of this:
 
 * You are ripping yourself off every time you answer a question by pattern:
-  * If you say "I remember that the question that started this way should have the answer that started that way", then you are robbing yourself of a valuable learning opportunity.
+  * If you say, "I remember that the question that started this way should have the answer that started that way", then you are robbing yourself of a valuable learning opportunity.
   * Always only ever answer the question after you understand the full context of the question.
 * _Never guess_ on the practice exams. You win _nothing_ by guessing the right answer on a practice exam. You're short-changing yourself and causing yourself to lose one valuable practice exam question every time you guess.
 * If you're not sure of the answer you can flag the question. You then will have to be sure to review your flagged questions when you're doing your review process.
 
-You can guess on the official exam and you'll lose nothing there because you can't get a list of your failed questions and review them on the official exam.
+You can guess on the official exam, and you'll lose nothing there because you can't get a list of your failed questions and review them on the official exam.
 
 ## Resources
 
@@ -133,7 +135,7 @@ Here are some of the resources I found most useful and referred to most often:
 ### Paid
 
 * Udemy
-  * Udemy course providers tend to publish code and presentation slides in `.zip` format. That's one reason to store your notes in a local folder git repo. You can expand each of the zips into folders for each course.
+  * Udemy course providers tend to publish code and presentation slides in `.zip` format. That's one reason to store your notes in a local folder Git repo. You can expand each of the zips into folders for each course.
   * The presentation slides and cheat sheets are much denser exam-oriented facts than what you'll find in AWS Docs or online.
   * Stephane Maarek
     * Maarek provides the densest, most extensive course material and practice exams. There are very slight narration annoyances that might reduce the multi-listen quality. I have most of his courses because they are the fullest single-source courses if you want to do just one per Exam. 
