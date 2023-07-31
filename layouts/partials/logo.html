@@ -1,10 +1,6 @@
 <!-- https://codepen.io/Kraisorn_R/pen/BwewVN -->
 
-<link rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta/css/bootstrap.min.css"
-    media="all" />
-<link rel="stylesheet" href="{{ "/css/custom.css" | relURL }}" media="all" />
-<div class="row">
+<a href="{{ '/' | relURL }}" title="WhyWe.tech logo" class="col-12 col-md-6">
     <svg width="320" height="100" class="logo">
         <g xmlns="http://www.w3.org/2000/svg" transform="translate(157 0)">
             <polygon class="tech" points="0,0 110,0 130,25 110,50 0,50" />
@@ -16,12 +12,12 @@
         </g>
         <g xmlns="http://www.w3.org/2000/svg" transform="scale(1 1)">
             <path class="why" d="M0,5
-                             A5,5 0 0,1 5,0 
-                             H80 
-                             L100,25 
-                             L80,50 
-                             H5
-                             A5,5 0 0,1 0,45 Z" />
+                            A5,5 0 0,1 5,0 
+                            H80 
+                            L100,25 
+                            L80,50 
+                            H5
+                            A5,5 0 0,1 0,45 Z" />
             <text x="50" y="37" class="title" text-anchor="middle" fill="white">Why</text>
         </g>
         <g xmlns="http://www.w3.org/2000/svg" transform="translate(285 0)">
@@ -29,21 +25,15 @@
         </g>
         <g xmlns="http://www.w3.org/2000/svg" transform="translate(0 60)">
             <path class="we" d="M0,5
-                             A5,5 0 0,1 5,0 
-                             H260 
-                             L275,15 
-                             L260,30 
-                             H5
-                             A5,5 0 0,1 0,25 Z" />
+                            A5,5 0 0,1 5,0 
+                            H260 
+                            L275,15 
+                            L260,30 
+                            H5
+                            A5,5 0 0,1 0,25 Z" />
             <text class="subhead" x="15" y="20" text-anchor="left" fill="white">The moral case for
                 technology</text>
         </g>
 
     </svg>
-
-    <div class="justification">
-        {{- range .Site.Params.justification }}
-            <div class="line">{{ . }}</div>
-        {{- end }}
-    </div>
-</div>
+</a>

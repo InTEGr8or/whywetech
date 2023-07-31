@@ -17,9 +17,15 @@
 }
 
 body{
+    max-width: 1280px;
+    margin: 0 auto;
     background-color: #000;
     color:#e6c98abd;
     font-size: 1.2em;
+}
+
+div.page-content{
+
 }
 
 .column {
@@ -38,6 +44,7 @@ body{
     transform: scale(2);
   }
 }
+
 
 /* SEGMENTS */
 .why {
@@ -65,7 +72,7 @@ div.row{
     grid-column: 2 / 4;
 }
 svg.logo {
-    margin: 30px;
+    margin: 30px 10px;
     grid-column: 1 / 2;
 }
 svg.logo g text {

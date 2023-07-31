@@ -1,2 +1,15 @@
 
-{{ partial "logo.html" . }}
+<link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta/css/bootstrap.min.css"
+    media="all" />
+<link rel="stylesheet" href="{{ "/css/custom.css" | relURL }}" media="all" />
+<div class="top-nav row">
+    
+    {{ partial "logo.html" . }}
+
+    <div class="justification">
+        {{- range .Site.Params.justification }}
+            <div class="line">{{ . }}</div>
+        {{- end }}
+    </div>
+</div>
