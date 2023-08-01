@@ -2,6 +2,14 @@
 title: Why We Tech
 description: Articulating the morality of technology.
 ---
+# Site Intent
+
+Develop a clear, easily consumable, and broad statement about the validity of using technology and countering such anti-tech stories as Prometheus and Icarus.
+
+Also, provide a news analysis channel for regular ingestion and integration of The Live Stream (daily news stories of any kind).
+
+## Outline
+
 What is the status of technology in our lives?
 
 Humans have recorded stories involving technology going back to the most ancient writings. We also have extensive collections of human artifacts through which we can a tendency towards technology.

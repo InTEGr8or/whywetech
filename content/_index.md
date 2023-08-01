@@ -5,9 +5,13 @@ title: Why We Tech
 
 What is the status of technology in our lives?
 
+![](2023-08-01-11-17-10_resized.png)
+
+![](2023-08-01-10-17-44_resized.png)
+
 Humans have recorded stories involving technology going back to the most ancient writings. We also have extensive collections of human artifacts through which we can a tendency towards technology.
 
-What is the cultural evaluation of technology? Throughout history the tradesman, the tinkerer, and the artificer have been described as trivial actors on the world stage. The characters that populate histories before 1800 have been mostly conquerors and clerics. The rulers had a much larger role when citizens still called themselves "subjects". The conquerors and rulers were the men that subjugated all the residents of their countries, and the clerics explained why this was their "divine right" or "mandate of heaven". Before the special sciences, clerical scholars were focused on morality and the organization of society.
+What is the cultural evaluation of technology? Throughout history, the tradesman, the tinkerer, and the artificer are portrayed as trivial actors on the world stage. The characters that populate accounts before 1800 have been conquerors and clerics. The rulers had a much larger role when citizens still called themselves "subjects." The conquerors and rulers were the men that subjugated all the residents of their countries, and the clerics explained why this was their "divine right" or "mandate of heaven." Before the special sciences, clerical scholars were focused on morality and the organization of society.
 
 Technical innovators, it is becoming clear now, are not trivial actors on the world stage. Starting with the banks in Italy and "manufactories" of England, private owners were becoming as wealthy as royalty and, eventually, as heads of state.
 
