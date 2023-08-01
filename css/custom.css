@@ -17,6 +17,8 @@
 }
 
 body{
+    max-width: 1280px;
+    margin: 0 auto;
     background-color: #000;
     color:#e6c98abd;
     font-size: 1.2em;
@@ -27,17 +29,6 @@ body{
     column-gap: 20px;
 }
 
-@media only screen and (max-width: 600px) {
-  body {
-    font-size: 1.5em;
-  }
-  .column {
-    column-count: 1;
-  }
-  svg.logo{
-    transform: scale(2);
-  }
-}
 
 /* SEGMENTS */
 .why {
@@ -62,10 +53,10 @@ div.row{
 .justification {
     padding: 20px;
     font-size: 2em;
-    grid-column: 2 / 4;
+    grid-column: 3 / 4;
 }
 svg.logo {
-    margin: 30px;
+    margin: 30px 10px;
     grid-column: 1 / 2;
 }
 svg.logo g text {
@@ -101,3 +92,46 @@ h4.section-title {
     padding: 10px;
     border-radius: 5px;
 }
+
+@media (min-width:320px)  {
+    /* smartphones, iPhone, portrait 480x320 phones */ 
+    div.page-content {
+        font-size: 2.3em;
+    }
+} 
+@media (min-width:481px)  {
+    /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */ 
+    div.page-content {
+        font-size: 1.9em;
+    }
+}
+@media (min-width:641px)  {
+    /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */ 
+    div.page-content {
+        font-size: 1.7em;
+    }
+    .column {
+        column-count: 1;
+    }
+    .justification {
+        font-size: 1.4em;
+    }
+}
+@media (min-width:961px)  {
+     /* tablet, landscape iPad, lo-res laptops ands desktops */ 
+    div.page-content {
+        font-size: 1.9em;
+    }
+    .column {
+        column-count: 1;
+    }
+    .justification {
+        font-size: 1.4em;
+    }
+    svg.logo{
+        transform: scale(1.4) translate(50px,10px);
+    }
+}
+@media (min-width:1025px) { /* big landscape tablets, laptops, and desktops */ }
+@media (min-width:1281px) { /* hi-res laptops and desktops */ }
+
